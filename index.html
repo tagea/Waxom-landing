@@ -25,9 +25,15 @@
                 <li class="menu-main__item"><a href="#" class="menu-main__link">Shortcodes</a></li>
                 <li class="menu-main__item"><a href="#" class="menu-main__link">Contact</a></li>
             </ul>
-            
-            <div class="shop-button"><a href="#" class="top-icon__link"><i class="icon-shop"></i></a></div>
-            <div class="search"><a href="" class="top-icon__link"><i class="icon-search"></i></a></div>
+            <div class="shop-button">
+                <a href="#" class="top-icon__link"><i class="icon-shop"></i></a>
+            </div>
+            <div class="search">
+                <form action="#" method="post" class="search__form">
+                    <label for="search" class="search__label"><i class="icon-search top-icon__link"></i></label>
+                    <input class="search__input" type="text" id="search" placeholder="">
+                </form>
+            </div>
         </nav>
     </header>
     <main class="main">
@@ -119,8 +125,8 @@
             </div>
         </section>
         <section>
-            <div class="proposal">
-                <div class="proposal__content">
+            <div class="sub-info">
+                <div class="proposal">
                     <div class="proposal__text">
                         <div class="proposal__title"><span class="proposal__title_bege">Waxom</span> Multipurpose WordPress Theme</div>
                         <p class="proposal__p">Don't Forget to Rate the Template. Thanks so much!</p>
@@ -250,46 +256,182 @@
             </div>
         </section>
         <section>
-            <div class="device-presen"></div>
-        </section>
-        <section>
-            <div class="counters">
-<!--
-                <ul class="counters__list">
-                    <li class="counters__item"></li>
-                    <li class="counters__item"></li>
-                    <li class="counters__item"></li>
-                    <li class="counters__item"></li>
-                    <li class="counters__item"></li>
-                </ul>
--->
+            <div class="achievements">
+                <div class="achievements__content">
+                   <div class="achievements__demo">
+                       <img class="achievements__img" src="img/iPhone-in-hand.png" alt="mobile demo">
+                   </div>
+                    <div class="achievements__text">
+                        <h1 class="section__h1">Excellent for Mobile Devices.</h1>
+                        <p class="achievements__p">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                        <ul class="arrow__list">
+                            <li class="arrow__item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                            <li class="arrow__item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                            <li class="arrow__item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                            <li class="arrow__item">Investigationes demonstraverunt lectores</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
-            <div class="recent-posts"></div>
+            <div class="sub-info">
+                <div class="counters">
+                    <ul class="counters__list">
+                        <li class="counters__item">
+                            <div class="counters__ico"><i class="icon-people"></i></div>
+                            <div class="counters__number">3587</div>
+                            <div class="counters__title">satisfied clients</div>
+                            <span class="counters__bottom-line"></span>
+                        </li>
+                        <li class="counters__item">
+                            <div class="counters__ico"><i class="icon-tee"></i></div>
+                            <div class="counters__number">207</div>
+                            <div class="counters__title">cups of coffee</div>
+                            <span class="counters__bottom-line"></span>
+                        </li>
+                        <li class="counters__item">
+                            <div class="counters__ico"><i class="icon-sms"></i></div>
+                            <div class="counters__number">2500</div>
+                            <div class="counters__title">blog posts</div>
+                            <span class="counters__bottom-line"></span>
+                        </li>
+                        <li class="counters__item">
+                            <div class="counters__ico"><i class="icon-heart"></i></div>
+                            <div class="counters__number">873</div>
+                            <div class="counters__title">likes</div>
+                            <span class="counters__bottom-line"></span>
+                        </li>
+                        <li class="counters__item">
+                            <div class="counters__ico"><i class="icon-bell"></i></div>
+                            <div class="counters__number">900</div>
+                            <div class="counters__title">we launched</div>
+                            <span class="counters__bottom-line"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section>
-            <div class="partners"></div>
+            <div class="recent-posts">
+                <div class="recent-posts_content container">
+                    <h1 class="section__h1">Recent Posts.</h1>
+                    <p class="section__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    <ul class="recent-posts__list">
+                        <li class="recent-posts__item">
+                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                            <img src="img/blog-1.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                            <div class="recent-posts__descr">
+                              <div class="recent-posts__title">Lorem ipsum dolor sit amet</div>
+                              <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                              <a href="#" class="recent-posts__link-more">Read more</a>
+                            </div>
+                        </li>
+                        <li class="recent-posts__item">
+                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                            <img src="img/blog-2.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                            <div class="recent-posts__descr">
+                              <div class="recent-posts__title">Lorem ipsum dolor sit amet</div>
+                              <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                              <a href="#" class="recent-posts__link-more">Read more</a>
+                            </div>
+                        </li>
+                        <li class="recent-posts__item">
+                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                            <img src="img/blog-3.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                            <div class="recent-posts__descr">
+                              <div class="recent-posts__title">Lorem ipsum dolor sit amet</div>
+                              <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                              <a href="#" class="recent-posts__link-more">Read more</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="recent-posts__arrows">
+                        <a href="" class="recent-posts__arrows-link"><i class="icon-left-arrow"></i></a>
+                        <a href="" class="recent-posts__arrows-link"><i class="icon-right-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="partners">
+                <a href="#" class="partners__link"><img src="img/logo-01.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link"><img src="img/logo-02.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link"><img src="img/logo-03.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link"><img src="img/logo-04.png" alt="" class="partners__img"></a>
+            </div>
         </section>   
     </main>
     <footer class="footer">
-        <div class="about-footer">
-            <div class="about-footer__content">
-                4 columns
+        <div class="footer-info">
+            <div class="footer-info__content container">
+                <div class="footer__col">
+                    <div class="footer__header">
+                        <div class="logo">
+                            <a href="#" class="logo__link"><img class="logo__img" src="img/logos.png" alt="Waxom"><span class="logo__text">Waxom</span></a>
+                        </div>
+                    </div>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                    <a href="#" class="footer__link-more">Read more</a>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__header">
+                        <div class="footer__title">Recent Posts</div>
+                    </div>
+                    <ul class="footer__list-text">
+                        <li class="footer__item-text">
+                            <a href="#" class="footer__link-text"><time class="footer__date" datetime="2017-09-08">September 08, 2017</time>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a>
+                            <span class="footer__line"></span>
+                        </li>
+                        <li class="footer__item-text">
+                            <a href="#" class="footer__link-text"><time class="footer__date" datetime="2017-09-08">September 08, 2017</time>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</a>
+                            <span class="footer__line"></span>
+                        </li>
+                        <li class="footer__item-text"><a href="#" class="footer__link-text"><time class="footer__date" datetime="2017-09-08">September 08, 2017</time>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__header">
+                        <div class="footer__title">Our Twitter</div>
+                    </div>
+                    <ul class="footer__list-text">
+                        <li class="footer__item-text">
+                            <a href="http://twitter.com/@waxom" class="twitter-link">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming
+                            <span class="footer__date">3 mins ago</span>
+                            <span class="footer__line"></span>
+                        </li>
+                        <li class="footer__item-text">Mirum est <a href="http://twitter.com/#envato" class="twitter-link">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum<span class="footer__date">5 hours ago</span>
+                        <span class="footer__line"></span>
+                        </li>
+                        <li class="footer__item-text">Soluta nobis option <a href="" class="link_dark">bit.ly/1Hniso7</a><span class="footer__date">20 days ago</span></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__header">
+                        <div class="footer__title">Dribbble Widget</div>
+                    </div>
+                    <div class="footer__block-img">
+                        <a href="#" class="footer__link-img"><img class="footer__img" src="img/dribble-1.jpg" alt="dribble"></a>
+                        <a href="#" class="footer__link-img"><img class="footer__img" src="img/dribble-2.jpg" alt="dribble"></a>
+                        <a href="#" class="footer__link-img"><img class="footer__img" src="img/dribble-3.jpg" alt="dribble"></a>
+                        <a href="#" class="footer__link-img"><img class="footer__img" src="img/dribble-4.jpg" alt="dribble"></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="copyright">
-            <div class="copyright__content">
+            <div class="copyright__content container">
                <div class="copyright__text">
-                   Copyright &copy; 2018 <span class="copyright__accent">Waxom</span> | <a href="#" class="copyright__link">Privacy Policy</a>|<a href="#" class="copyright__link copyright__link_active">FAQ</a>|<a href="#" class="copyright__link">Support</a>
+                   Copyright &copy; 2018 <a href="#" class="link_dark">Waxom</a> | <a href="#" class="copyright__link">Privacy Policy</a>|<a href="#" class="copyright__link copyright__link_active">FAQ</a>|<a href="#" class="copyright__link">Support</a>
                </div>
-               <div class="copyright__author">Designed by <span class="copyright__accent">ThemeFire</span>&nbsp;|&nbsp;Only on <span class="copyright__accent">Envato Market</span></div>
+               <div class="copyright__author">Designed by <a href="#" class="link_dark">ThemeFire</a>&nbsp;|&nbsp;Only on <a href="#" class="link_dark">Envato Market</a></div>
             </div>
             
         </div>
     </footer>
     <script src="js/swiper.min.js"></script>
     <script src="js/swiper-controls.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/video.js"></script>
     
     </body>
