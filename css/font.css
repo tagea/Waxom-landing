@@ -8,7 +8,7 @@
          url('../font/Roboto/roboto-regular.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
          url('../font/Montserrat/montserrat-extralight.svg#montserratextralight') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Montserrat Light';
@@ -33,7 +33,7 @@
          url('../font/Montserrat/montserrat-light.svg#montserratlight') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Montserrat';
@@ -45,7 +45,7 @@
          url('../font/Montserrat/montserrat-regular.svg#montserratregular') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 
 @font-face {
@@ -58,7 +58,7 @@
          url('../font/Raleway/raleway-bold.svg#ralewaybold') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Raleway Extrabold';
@@ -70,7 +70,7 @@
          url('../font/Raleway/raleway-extrabold.svg#ralewayextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Raleway Medium';
@@ -82,7 +82,7 @@
          url('../font/Raleway/raleway-medium.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Raleway';
@@ -94,7 +94,7 @@
          url('../font/Raleway/raleway-regular.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Raleway Semibold';
@@ -106,5 +106,5 @@
          url('../font/Raleway/raleway-semibold.svg#ralewaysemibold') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: optional;
+    font-display: fallback;
 }

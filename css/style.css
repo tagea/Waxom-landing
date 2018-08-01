@@ -468,8 +468,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.services__link {
+.services__item {
   width: 25%;
+}
+.services__link {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -1051,15 +1053,15 @@ body {
     background-color: rgba(255, 255, 255, 0.57);
     color: #191919;
   }
-  .services__link {
+  .services__item {
     width: 50%;
   }
 }
 @media screen and (max-width: 576px) {
   html {
-    font-size: 3vw;
+    font-size: 4vw;
   }
-  .services__link {
+  .services__item {
     width: 100%;
   }
 }
