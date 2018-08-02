@@ -546,17 +546,19 @@ body {
   flex-flow: row wrap;
   list-style-type: none;
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
 }
 .project__item {
   display: flex;
   flex-flow: column;
-  flex: 25%;
-  margin: 0 15px 30px 15px;
+  width: 33.33333333%;
+  padding: 0 15px 30px 15px;
   background-color: transparent;
   text-decoration: none;
   color: #d1d1d1;
   transition: all 0.4s;
+  box-sizing: border-box;
 }
 .project__item:hover {
   cursor: pointer;
@@ -592,10 +594,10 @@ body {
   padding: 30px 28px;
   position: relative;
 }
-.project__descr .icon-top-arrow {
+.icon-top-arrow {
   color: #fbfaf8;
   position: absolute;
-  top: -16px;
+  bottom: -1px;
   left: 10px;
 }
 .project__item-title {
@@ -642,6 +644,8 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   -webkit-border-radius: 50%;
+  padding: 10px 4px;
+  box-sizing: border-box;
   text-align: center;
   cursor: pointer;
 }
@@ -650,7 +654,6 @@ body {
   font-size: 4.4em;
   color: #ffffff;
   opacity: 0.4;
-  padding: 10px 4px;
 }
 .video__title {
   font-family: 'Raleway Medium';
@@ -805,7 +808,7 @@ body {
   margin-left: 10px;
   vertical-align: middle;
 }
-.recent-posts__pagenation {
+.recent-posts__pagination {
   display: none;
 }
 .recent-posts__arrows-link {
@@ -1140,16 +1143,46 @@ body {
   .recent-posts__arrows {
     display: none;
   }
+  .recent-posts__pagination {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .recent-posts__bullet {
+    display: inline-block;
+    background-color: #959595;
+    opacity: 0.2;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 8px;
+    margin: 0 2px;
+  }
+  .recent-posts__bullet_active {
+    border: 2px solid #4e3427;
+    background-color: #ffffff;
+  }
   .partners {
     padding: 40px 0;
+  }
+  .footer__text,
+  .footer__item-text,
+  .footer__date {
+    color: #ffffff;
   }
 }
 @media screen and (max-width: 576px) {
   html {
     font-size: 3vw;
+    color: #111111;
   }
   .services__item {
     width: 100%;
+  }
+  .services__text,
+  .section__text,
+  .recent-posts__p,
+  .achievements__p {
+    color: #111111;
   }
   .slider__h2 {
     font-size: 2.0em;
@@ -1158,10 +1191,14 @@ body {
     font-size: 1.6em;
   }
   .ideas {
+    text-align: center;
     padding: 40px 0;
   }
   .ideas__screens {
     display: none;
+  }
+  .project__list {
+    flex-flow: column;
   }
   .project__item {
     width: 100%;
