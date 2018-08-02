@@ -1027,7 +1027,7 @@ body {
     padding: 0 30px;
   }
   .swiper-slide {
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
   }
   .shop-button,
@@ -1174,6 +1174,9 @@ body {
   html {
     font-size: 3vw;
     color: #111111;
+  }
+  .search__input {
+    font-size: 16px;
   }
   .services__item {
     width: 100%;
