@@ -6,6 +6,7 @@
         <title>Waxom / Unique and modern design</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font.css" media="screen and (min-width:768px)">
+        <link rel="stylesheet" href="css/animate.css" media="screen and (min-width:768px)">
         <link rel="stylesheet" href="css/font-light.css" media="screen and (max-width:768px)">
         <link rel="stylesheet" href="css/fontello.css">
         <link rel="stylesheet" href="css/swiper.min.css">
@@ -44,7 +45,7 @@
     </header>
     <main class="main">
         <section>
-            <div class="swiper-container">
+            <div class="swiper-container top-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-bg1">
                         <div class="slider_under-header">Unique and modern design</div>
@@ -52,15 +53,15 @@
                         <p class="slider__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
                         <a href="#" class="link-button">Get started</a>
                     </div>
-                    <div class="swiper-slide slide-bg1">
-                        <span class="slider_under-header">Unique and modern design</span>
-                        <h2 class="slider__h2">Portfolio PSD templates</h2>
+                    <div class="swiper-slide slide-bg2">
+                        <span class="slider_under-header">Ideal grid and lines</span>
+                        <h2 class="slider__h2">Portfolio HTML templates</h2>
                         <p class="slider__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
                         <a href="#" class="link-button">Get started</a>
                     </div>
-                    <div class="swiper-slide slide-bg1">
-                        <div class="slider_under-header">Unique and modern design</div>
-                        <h2 class="slider__h2">Portfolio PSD templates</h2>
+                    <div class="swiper-slide slide-bg3">
+                        <div class="slider_under-header">Different variants of theme</div>
+                        <h2 class="slider__h2">Mobile interfaces</h2>
                         <p class="slider__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
                         <a href="#" class="link-button">Get started</a>
                     </div>
@@ -74,7 +75,7 @@
         <section>
             <div class="services">
                 <ul class="services__list">
-                    <li class="services__item">
+                    <li class="services__item wow bounceInLeft">
                         <a href="#" class="services__link">
                            <div class="services__icon">
                                <i class="icon-pencil"></i>
@@ -84,7 +85,7 @@
                            <span class="services__bottom-line"></span> 
                         </a>
                     </li>
-                    <li class="services__item">
+                    <li class="services__item wow bounceInDown" data-wow-delay="0.5s">
                         <a href="#" class="services__link">
                             <div class="services__icon">
                                 <i class="icon-layers"></i>
@@ -94,7 +95,7 @@
                            <span class="services__bottom-line"></span>
                         </a>
                       </li>
-                      <li class="services__item"> 
+                      <li class="services__item wow bounceInDown" data-wow-delay="0.5s"> 
                         <a href="#" class="services__link">
                            <div class="services__icon">
                                <i class="icon-tools"></i>
@@ -104,7 +105,7 @@
                            <span class="services__bottom-line"></span> 
                         </a>
                       </li>
-                      <li class="services__item">
+                      <li class="services__item wow bounceInRight">
                         <a href="#" class="services__link">
                            <div class="services__icon">
                                <i class="icon-folder"></i>
@@ -123,9 +124,9 @@
                     <h1 class="section__h1">Waxom is Realization of your Ideas.</h1>
                     <p class="section__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
                     <div class="ideas__screens">
-                        <img src="img/browser-left.jpg" alt="" class="ideas__img ideas__img_left">
+                        <img src="img/browser-left.jpg" alt="" class="ideas__img ideas__img_left wow fadeInRight" data-wow-duration="1s">
                         <img src="img/browser-center.jpg" alt="" class="ideas__img ideas__img_center">
-                        <img src="img/browser-right.jpg" alt="" class="ideas__img ideas__img_right">
+                        <img src="img/browser-right.jpg" alt="" class="ideas__img ideas__img_right wow fadeInLeft" data-wow-duration="1s">
                     </div>
                 </div>
             </div>
@@ -253,7 +254,7 @@
                     <p class="video__p">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
                     <span class="video__time"></span>
                 </div>
-                <video muted loop class="video-back">
+                <video muted loop class="video-back" poster="img/video-back.jpg">
                     <source class="video-back-src" src="video/Mock-up.mp4" type="video/mp4">
                     <source class="video-back-src" src="video/Mock-up.ogv" type="video/ogg">
                     <source class="video-back-src" src="video/Mock-up.webm" type="video/webm"> 
@@ -264,7 +265,7 @@
         <section>
             <div class="achievements">
                 <div class="achievements__content container">
-                   <div class="achievements__demo">
+                   <div class="achievements__demo wow slideInLeft">
                        <img class="achievements__img" src="img/iPhone-in-hand.png" alt="mobile demo">
                    </div>
                     <div class="achievements__text">
@@ -284,31 +285,31 @@
             <div class="sub-info">
                 <div class="counters container">
                     <ul class="counters__list">
-                        <li class="counters__item">
+                        <li class="counters__item wow flipInX">
                             <div class="counters__ico"><i class="icon-people"></i></div>
                             <span class="counters__number">3587</span>
                             <span class="counters__title">satisfied clients</span>
                             <span class="counters__bottom-line"></span>
                         </li>
-                        <li class="counters__item">
+                        <li class="counters__item wow flipInX" data-wow-delay="0.2s">
                             <div class="counters__ico"><i class="icon-tee"></i></div>
                             <span class="counters__number">207</span>
                             <span class="counters__title">cups of coffee</span>
                             <span class="counters__bottom-line"></span>
                         </li>
-                        <li class="counters__item">
+                        <li class="counters__item wow flipInX" data-wow-delay="0.4s">
                             <div class="counters__ico"><i class="icon-sms"></i></div>
                             <span class="counters__number">2500</span>
                             <span class="counters__title">blog posts</span>
                             <span class="counters__bottom-line"></span>
                         </li>
-                        <li class="counters__item">
+                        <li class="counters__item wow flipInX" data-wow-delay="0.6s">
                             <div class="counters__ico"><i class="icon-heart"></i></div>
                             <span class="counters__number">873</span>
                             <span class="counters__title">likes</span>
                             <span class="counters__bottom-line"></span>
                         </li>
-                        <li class="counters__item">
+                        <li class="counters__item wow flipInX" data-wow-delay="0.8s">
                             <div class="counters__ico"><i class="icon-bell"></i></div>
                             <span class="counters__number">900</span>
                             <span class="counters__title">we launched</span>
@@ -320,56 +321,76 @@
         </section>
         <section>
             <div class="recent-posts">
-                <div class="recent-posts_content container">
+                <div class="container">
                     <h1 class="section__h1">Recent Posts.</h1>
                     <p class="section__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                    <ul class="recent-posts__list">
-                        <li class="recent-posts__item">
-                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
-                            <img src="img/blog-1.jpg" alt="Lorem ipsum" class="recent-posts__img">
-                            <div class="recent-posts__descr">
-                                <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
-                                <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                <a href="#" class="recent-posts__link-more">Read more</a>
-                            </div>
-                        </li>
-                        <li class="recent-posts__item">
-                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                    <div class="swiper-container content-slider">
+                       <div class="swiper-wrapper recent-posts__list">
+                           <div class="swiper-slide recent-posts__item">
+                               <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                                <img src="img/blog-1.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                                <div class="recent-posts__descr">
+                                    <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
+                                    <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="recent-posts__link-more">Read more</a>
+                                </div>
+                           </div>
+                           <div class="swiper-slide recent-posts__item">
+                               <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
                             <img src="img/blog-2.jpg" alt="Lorem ipsum" class="recent-posts__img">
                             <div class="recent-posts__descr">
                                 <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
                                 <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
                                 <a href="#" class="recent-posts__link-more">Read more</a>
                             </div>
-                        </li>
-                        <li class="recent-posts__item">
-                            <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
-                            <img src="img/blog-3.jpg" alt="Lorem ipsum" class="recent-posts__img">
-                            <div class="recent-posts__descr">
-                            <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
-                            <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                            <a href="#" class="recent-posts__link-more">Read more</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="recent-posts__arrows">
-                            <a href="" class="recent-posts__arrows-link"><i class="icon-left-arrow"></i></a>
-                            <a href="" class="recent-posts__arrows-link"><i class="icon-right-arrow"></i></a>
+                           </div>
+                           <div class="swiper-slide recent-posts__item">
+                               <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                                <img src="img/blog-3.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                                <div class="recent-posts__descr">
+                                <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
+                                <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                <a href="#" class="recent-posts__link-more">Read more</a>
+                                </div>
+                           </div>
+                           <div class="swiper-slide recent-posts__item">
+                               <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                                <img src="img/blog-2.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                                <div class="recent-posts__descr">
+                                    <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
+                                    <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="recent-posts__link-more">Read more</a>
+                                </div>
+                           </div>
+                           <div class="swiper-slide recent-posts__item">
+                               <time datetime="2017-09-30" class="recent-posts__date"><span class="date">30</span> <span class="month">Sep.</span></time>
+                                <img src="img/blog-2.jpg" alt="Lorem ipsum" class="recent-posts__img">
+                                <div class="recent-posts__descr">
+                                    <h2 class="recent-posts__title">Lorem ipsum dolor sit amet</h2>
+                                    <p class="recent-posts__p">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                    <a href="#" class="recent-posts__link-more">Read more</a>
+                                </div>
+                           </div>
+                        </div>
+                        
+                        <div class="recent-posts__arrows">
+                          <a href="" class="post-prev"><i class="icon-left-arrow"></i></a>
+                           <a href="" class="post-next"><i class="icon-right-arrow"></i></a>
+                            
+                            
+                        </div>
+                        <div class="recent-posts__pagination"></div>
                     </div>
-                    <div class="recent-posts__pagination">
-                        <span class="recent-posts__bullet recent-posts__bullet_active"></span>
-                        <span class="recent-posts__bullet"></span>
-                        <span class="recent-posts__bullet"></span>
-                    </div>
+
                 </div>
             </div>
         </section>
         <section>
             <div class="partners">
-                <a href="#" class="partners__link"><img src="img/logo-01.png" alt="" class="partners__img"></a>
-                <a href="#" class="partners__link"><img src="img/logo-02.png" alt="" class="partners__img"></a>
-                <a href="#" class="partners__link"><img src="img/logo-03.png" alt="" class="partners__img"></a>
-                <a href="#" class="partners__link"><img src="img/logo-04.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link wow pulse"><img src="img/logo-01.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link wow pulse" data-wow-delay="0.1s"><img src="img/logo-02.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link wow pulse" data-wow-delay="0.2s"><img src="img/logo-03.png" alt="" class="partners__img"></a>
+                <a href="#" class="partners__link wow pulse" data-wow-delay="0.3s"><img src="img/logo-04.png" alt="" class="partners__img"></a>
             </div>
         </section>   
     </main>
@@ -440,13 +461,14 @@
     <script src="js/swiper-controls.js"></script>
     <script src="js/form.js"></script>
     <script src="js/video.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
         const icons = document.querySelector('#icons');
         const menu = document.querySelector('.menu-main__list')
         icons.addEventListener('click', function(){
            icons.checked ? menu.style.top = '-40px' : menu.style.top = '-500px'; 
         });
-        
+        new WOW().init();
     </script>
     </body>
     </html>
