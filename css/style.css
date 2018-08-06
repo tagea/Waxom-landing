@@ -566,10 +566,7 @@ body {
   color: #d1d1d1;
   transition: all 0.4s;
   box-sizing: border-box;
-}
-.project__item:hover {
   cursor: pointer;
-  background-color: #211b19;
 }
 .project__item:hover .project__hover-link {
   display: block;
@@ -580,6 +577,7 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  background-color: #211b19;
 }
 .project__hover-link {
   position: absolute;
@@ -604,7 +602,7 @@ body {
 .icon-top-arrow {
   color: #fbfaf8;
   position: absolute;
-  bottom: -1px;
+  bottom: -2px;
   left: 10px;
 }
 .project__item-title {
@@ -1213,7 +1211,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   html {
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: #111111;
   }
   .search__input {
