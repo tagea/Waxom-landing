@@ -1,4 +1,4 @@
 # Waxom-landing
-HTML5, библиотека WOW, сладйер swiper, адаптивность
+HTML5, библиотека WOW, слайдер swiper, предусмотрена адаптивность под мобильные телефоны и планшеты
 
-ссылка https://tagea.github.io/Waxom-landing/
+web версия https://tagea.github.io/Waxom-landing/
